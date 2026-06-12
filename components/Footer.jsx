@@ -15,7 +15,7 @@ export default function Footer() {
               <img src="/images/SVG/default-logo.svg" alt="MediPro" className="h-12 brightness-0 invert" />
             </Link>
             <p className="text-white/70 type-body">
-              Providing expert orthopaedic care to the people of Gajuwaka and Visakhapatnam for over 14 years. Your bone and joint health is our priority.
+              Providing expert orthopaedic care to the people of Gajuwaka and Visakhapatnam since 2010. Your bone and joint health is our priority.
             </p>
             <div className="flex space-x-4">
               {[

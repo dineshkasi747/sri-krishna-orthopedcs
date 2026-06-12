@@ -6,7 +6,7 @@ import FloatingButtons from '@/components/shared/FloatingButtons';
 
 export const metadata = {
   title: 'Sri Krishna Orthopaedic Hospital - Gajuwaka, Visakhapatnam',
-  description: 'Expert orthopaedic care in Gajuwaka, Visakhapatnam. Specialising in joint replacement, spine surgery, fracture care, sports injuries, and arthroscopy. 14+ years of trusted healthcare.',
+  description: 'Expert orthopaedic care in Gajuwaka, Visakhapatnam. Specialising in joint replacement, spine surgery, fracture care, sports injuries, and arthroscopy. 25+ years of trusted healthcare.',
 };
 
 export default function RootLayout({ children }) {

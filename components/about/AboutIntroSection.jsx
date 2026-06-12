@@ -24,7 +24,7 @@ export default function AboutIntroSection() {
             
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="400">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                At Sri Krishna Orthopaedic Hospital, we have been delivering exceptional orthopaedic care for over 14 years. Located beside Gajuwaka Police Station in Visakhapatnam, our hospital is a trusted destination for advanced bone and joint care, specialized fracture management, and modern arthritis treatments.
+                At Sri Krishna Orthopaedic Hospital, we have been delivering exceptional orthopaedic care since 2010. Located beside Gajuwaka Police Station in Visakhapatnam, our hospital is a trusted destination for advanced bone and joint care, specialized fracture management, and modern arthritis treatments, led by Dr. M. Murali Mohan who brings over 25 years of clinical expertise.
               </span>
             </p>
             

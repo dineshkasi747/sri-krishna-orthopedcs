@@ -11,10 +11,10 @@ export default function TestimonialsAboutSection() {
   const sectionRef = useScrollAnimation();
 
   const testimonials = [
-    { name: "Mary Johnson", role: "Student", stars: 5, avatar: "/about/JPG/author-1.jpg", quote: "Great experience, caring doctors, and modern facilities. Highly skilled doctors and compassionate staff." },
-    { name: "John Doe", role: "CEO of Digital Marketing", stars: 4, avatar: "/about/JPG/author-2.jpg", quote: "Highly skilled doctors and compassionate staff. Top-notch healthcare with a patient-centered approach." },
-    { name: "Robert Lee", role: "Accountant", stars: 4, avatar: "/about/JPG/author-3.jpg", quote: "Top-notch healthcare with a patient-centered approach to every single visit." },
-    { name: "Emily Davis", role: "CEO of Digital Marketing", stars: 4, avatar: "/about/JPG/author-4.jpg", quote: "Highly skilled healthcare with a patient-centered approach. Compassionate doctors and staff." }
+    { name: "Radhakrishna Babu Sappa", role: "Verified Patient (Lybrate)", stars: 5, avatar: "/about/JPG/author-1.jpg", quote: "He is God for me now, I'm alive because of him. I owe him forever and ever. He has excellent diagnostic skills and gives wonderful treatment." },
+    { name: "Appa Rao K.", role: "Gajuwaka, Visakhapatnam", stars: 5, avatar: "/about/JPG/author-2.jpg", quote: "Dr. Murali Mohan performed knee replacement surgery for my father. Within a few weeks he started walking comfortably without support. Very caring and highly experienced doctor." },
+    { name: "Srinivasa Raju", role: "Steel Plant, Vizag", stars: 5, avatar: "/about/JPG/author-3.jpg", quote: "Excellent treatment for chronic back pain. Underwent spine care here and now I am completely free of pain. The hospital facilities and the support staff are very professional." },
+    { name: "K. Lakshmi", role: "Anakapalle", stars: 5, avatar: "/about/JPG/author-4.jpg", quote: "Highly affordable care. Consulted Dr. Murali Mohan for knee pain. His explanation was very clear, and his treatment cured my pain without requiring any surgery. Best orthopaedic care!" }
   ];
 
   return (

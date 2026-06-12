@@ -44,29 +44,64 @@ export default function WhoWeAreSection() {
             <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal mb-1" data-animation="fadeInUp" data-delay="200">
               <SplitText text="Dr. M. Murali Mohan" />
             </h2>
-            <p className="text-xl font-bold text-[var(--color-accent)] scroll-reveal -mt-3" data-animation="fadeInUp" data-delay="300">
-              MBBS, MS - Orthopaedics
+            <p className="type-body text-lg font-bold text-[var(--color-accent)] scroll-reveal -mt-3" data-animation="fadeInUp" data-delay="300">
+              MS (Ortho), M.CH, FJRS (Mumbai), FPO.FSS (Seoul, South Korea)
             </p>
             
             <p className="type-body text-[var(--color-primary)]/75 scroll-reveal" data-animation="fadeInUp" data-delay="400">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                Dr. M. Murali Mohan is a renowned senior orthopaedic specialist in Gajuwaka, Visakhapatnam. With over 14 years of clinical experience, he is dedicated to providing high-quality, patient-centric treatments. He has established a strong reputation for surgical excellence in joint replacements, disc herniation, and complex trauma management.
+                Dr. M. Murali Mohan is a renowned senior orthopaedic specialist and the lead surgeon at Sri Krishna Orthopaedic Hospital in Gajuwaka, Visakhapatnam. With over 25 years of extensive clinical experience, he is dedicated to providing high-quality, patient-centric treatments. He has established a strong reputation for surgical excellence in joint replacements, paediatric orthopaedics, spine care, and complex trauma management.
               </span>
             </p>
-
-            <div className="bg-white/40 border border-[var(--color-primary)]/10 rounded-2xl p-6 space-y-4 scroll-reveal" data-animation="fadeInUp" data-delay="500">
-              <h4 className="font-bold text-xs uppercase tracking-wider text-gray-500">Qualifications</h4>
-              <div className="space-y-3">
-                <div className="flex items-start space-x-2">
-                  <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={14} />
-                  <p className="type-body text-sm text-[var(--color-primary)] font-medium">
-                    <strong className="text-[var(--color-primary)]">MS (Orthopaedics)</strong> - Guntur Medical College, Guntur - 2004
-                  </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 scroll-reveal" data-animation="fadeInUp" data-delay="500">
+              {/* Qualifications Card */}
+              <div className="bg-white/40 border border-[var(--color-primary)]/10 rounded-2xl p-6 space-y-4">
+                <h4 className="font-bold text-xs uppercase tracking-wider text-gray-500">Qualifications</h4>
+                <div className="space-y-2.5">
+                  <div className="flex items-start space-x-2">
+                    <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={13} />
+                    <p className="type-body text-xs text-[var(--color-primary)] font-medium">
+                      <strong className="text-[var(--color-primary)]">M.CH</strong> - Master of Chirurgiae
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={13} />
+                    <p className="type-body text-xs text-[var(--color-primary)] font-medium">
+                      <strong className="text-[var(--color-primary)]">FJRS</strong> - Fellow in Joint Replacement Surgery, Mumbai
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={13} />
+                    <p className="type-body text-xs text-[var(--color-primary)] font-medium">
+                      <strong className="text-[var(--color-primary)]">FPO.FSS</strong> - Fellow in Paediatric Orthopedics (Seoul, South Korea)
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={13} />
+                    <p className="type-body text-xs text-[var(--color-primary)] font-medium">
+                      <strong className="text-[var(--color-primary)]">MS (Orthopaedics)</strong> - Guntur Medical College - 2004
+                    </p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={13} />
+                    <p className="type-body text-xs text-[var(--color-primary)] font-medium">
+                      <strong className="text-[var(--color-primary)]">MBBS</strong> - Andhra Medical College, Vizag - 1999
+                    </p>
+                  </div>
                 </div>
-                <div className="flex items-start space-x-2">
-                  <FaCheckCircle className="text-[var(--color-accent)] mt-1 flex-shrink-0" size={14} />
-                  <p className="type-body text-sm text-[var(--color-primary)] font-medium">
-                    <strong className="text-[var(--color-primary)]">MBBS</strong> - Andhra Medical College, Visakhapatnam - 1999
+              </div>
+
+              {/* International Training Section */}
+              <div className="bg-white/40 border border-[var(--color-primary)]/10 rounded-2xl p-6 space-y-4">
+                <h4 className="font-bold text-xs uppercase tracking-wider text-gray-500">Global Training</h4>
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-2 text-[var(--color-accent)] font-semibold">
+                    <span className="text-2xl">🌍</span>
+                    <span className="text-xs uppercase tracking-wider text-[var(--color-primary)] font-bold">International Standards</span>
+                  </div>
+                  <p className="type-body text-xs text-[var(--color-primary)]/80 leading-relaxed font-medium">
+                    Dr. Murali Mohan has received specialized training at premier institutions internationally. By completing a Joint Replacement fellowship in Mumbai and a Paediatric Orthopaedics fellowship in Seoul, South Korea, he brings global surgical standards to Visakhapatnam.
                   </p>
                 </div>
               </div>

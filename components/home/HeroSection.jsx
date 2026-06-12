@@ -32,7 +32,7 @@ export default function HeroSection() {
             </h1>
             
             <p className="type-body text-white/70 max-w-xl scroll-reveal" data-animation="fadeInUp" data-delay="700">
-              With over 14 years of dedicated orthopaedic care, we offer advanced surgical and non-surgical treatments for joint, spine, and sports injuries. Located beside Gajuwaka Police Station, Visakhapatnam.
+              With over 25 years of dedicated orthopaedic care, we offer advanced surgical and non-surgical treatments for joint, spine, and sports injuries. Located beside Gajuwaka Police Station, Visakhapatnam.
             </p>
             
             <div className="flex flex-wrap items-center gap-4 pt-2 pb-6 scroll-reveal" data-animation="fadeInUp" data-delay="900">
@@ -61,7 +61,7 @@ export default function HeroSection() {
               <div className="flex flex-col space-y-1">
                 <div className="flex items-center gap-2 text-[var(--color-accent)] font-bold text-2xl sm:text-3xl">
                   <FaUserCheck className="text-xl sm:text-2xl" />
-                  <span>14+</span>
+                  <span>25+</span>
                 </div>
                 <span className="text-white/60 text-xs sm:text-sm leading-snug">Years Experience</span>
               </div>
