@@ -1,0 +1,8 @@
+<svg id="micIconListening" class="hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <line x1="2" y1="2" x2="22" y2="22" stroke="rgb(255, 255, 255)" stroke-width="2px" fill-opacity="1" stroke-opacity="1"></line>
+            <path d="M9 9v3a3 3 0 0 0 5.12 2.12" stroke="rgb(255, 255, 255)" stroke-width="2px" fill-opacity="1" stroke-opacity="1"></path>
+            <path d="M15 9.34V4a3 3 0 0 0-5.94-.6" stroke="rgb(255, 255, 255)" stroke-width="2px" fill-opacity="1" stroke-opacity="1"></path>
+            <path d="M17 16.95A7 7 0 0 1 5 12v-2m14 0v2a7 7 0 0 1-.11 1.23" stroke="rgb(255, 255, 255)" stroke-width="2px" fill-opacity="1" stroke-opacity="1"></path>
+            <line x1="12" y1="19" x2="12" y2="23" stroke="rgb(255, 255, 255)" stroke-width="2px" fill-opacity="1" stroke-opacity="1"></line>
+            <line x1="8" y1="23" x2="16" y2="23" stroke="rgb(255, 255, 255)" stroke-width="2px" fill-opacity="1" stroke-opacity="1"></line>
+          </svg>

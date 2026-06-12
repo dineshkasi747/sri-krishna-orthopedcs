@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #07332F;
+  --color-accent: #F7A582;
+  --color-background: #FFF7F4;
+  --color-surface: #FEEFE9;
+  --color-white: #FFFFFF;
+  
+  --font-sans: 'Figtree', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  --background: #FFF7F4;
+  --foreground: #07332F;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Keyframes */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(80px); visibility: hidden; }
+  to { opacity: 1; transform: translateY(0); visibility: visible; }
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-40px); visibility: hidden; }
+  to { opacity: 1; transform: translateY(0); visibility: visible; }
+}
+
+@keyframes fadeLeftUp {
+  from { opacity: 0; transform: translate(-40px, 40px); visibility: hidden; }
+  to { opacity: 1; transform: translate(0, 0); visibility: visible; }
+}
+
+@keyframes fadeLeftDown {
+  from { opacity: 0; transform: translate(-40px, -40px); visibility: hidden; }
+  to { opacity: 1; transform: translate(0, 0); visibility: visible; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-100%); visibility: hidden; }
+  to { opacity: 1; transform: translateX(0); visibility: visible; }
+}
+
+/* Animation utilities */
+.scroll-reveal {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.animate-fadeDown {
+  animation: fadeDown 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-fadeLeftUp {
+  animation: fadeLeftUp 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-fadeLeftDown {
+  animation: fadeLeftDown 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 0.3s ease-out forwards;
+}
+
+@keyframes paperReveal {
+  0% { clip-path: inset(100% 0 0 0); opacity: 0; visibility: hidden; }
+  100% { clip-path: inset(0 0 0 0); opacity: 1; visibility: visible; }
+}
+
+.animate-paperReveal {
+  animation: paperReveal 0.7s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Custom Responsive Typography */
+.type-h1 { font-size: 36px; font-weight: 600; line-height: 1.2; letter-spacing: -0.5px; }
+.type-h2 { font-size: 32px; font-weight: 600; line-height: 1.2; letter-spacing: -0.5px; }
+.type-h3 { font-size: 24px; font-weight: 600; line-height: 1.2; }
+.type-body { font-size: 16px; font-weight: 400; line-height: 1.5; }
+.type-label { font-size: 14px; font-weight: 600; line-height: 1.2; letter-spacing: 2px; text-transform: uppercase; }
+.type-h4_label { font-size: 14px; font-weight: 600; line-height: 1.2; letter-spacing: 2px; text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .type-h1 { font-size: 48px; line-height: 1.1; letter-spacing: -0.96px; }
+  .type-h2 { font-size: 48px; line-height: 1.1; letter-spacing: -0.96px; }
+  .type-h3 { font-size: 32px; line-height: 1.1; }
+  .type-label { font-size: 18px; letter-spacing: 3.6px; }
+  .type-h4_label { font-size: 18px; letter-spacing: 3.6px; }
+}
+
+/* Custom UI Effects */
+.card-hover-lift {
+  transition: transform 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+.card-hover-lift:hover {
+  transform: translateY(-4px);
+}
+
+.link-hover-color {
+  transition: color 250ms ease-in-out;
+}
+
+/* Letter split animation base */
+.letter-split {
+  display: inline-block;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(50px);
+  transition: all 0.5s ease-out;
+}
+
+.letter-split.animate {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}

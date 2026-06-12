@@ -1,0 +1,13 @@
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="6" width="20" height="12" rx="2.5" stroke-width="1.8" stroke="rgb(34, 34, 34)" fill-opacity="1" stroke-opacity="1"></rect>
+          <circle fill="currentColor" cx="6" cy="10" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="9" cy="10" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="12" cy="10" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="15" cy="10" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="18" cy="10" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="7.5" cy="13" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="10.5" cy="13" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="13.5" cy="13" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <circle fill="currentColor" cx="16.5" cy="13" r="0.9" stroke="rgb(34, 34, 34)" stroke-width="1px" fill-opacity="1" stroke-opacity="1"></circle>
+          <line x1="8" y1="16.5" x2="16" y2="16.5" stroke-width="1.8" stroke="rgb(34, 34, 34)" fill-opacity="1" stroke-opacity="1"></line>
+        </svg>
